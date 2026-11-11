@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KD SHOP | Online Shopping</title>
+    <link rel="icon" type="image/png"
+        href="kd.logo.jpeg">
 
 <style>
 :root {
@@ -311,6 +313,19 @@ footer {
         flex-wrap: wrap;
     }
 }
+    /* KD SHOP LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 75px;
+    height: 65px;
+    object-fit: contain;
+    display: block;
+}
 </style>
 </head>
 
@@ -318,7 +333,9 @@ footer {
 
 <!-- HEADER -->
 <header>
-    <div class="logo">KD <span>SHOP</span></div>
+    <div class="logo">
+        <img src="kd.logo.jpeg" alt="KD SHOP logo">
+    </div>
 
     <nav>
         <a href="#home">Home</a>
